@@ -23,5 +23,6 @@ return res.sendStatus(200);
 }
 res.sendStatus(401);
 });
+app.disable('x-powered-by');
  
 module.exports = app;
